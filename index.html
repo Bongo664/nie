@@ -250,6 +250,7 @@
       }
       .contentWrapper{
         flex-direction: column-reverse;
+        width: 375px;
       }
       .accessWrapper{
         flex-direction: column;
@@ -279,19 +280,15 @@
       .nie{
         text-align: center;
         width: 375px;
-      }
-      .open{
-        width: 350px;
-        margin-left: 12.5px;
-        margin-right: 12.5px;
+        margin: 0;
+        padding: 0;
       }
       .tak{
         margin-left: 12.5px;
       }
       .accessRight__input{
         width: 350px;
-        margin-left: 12.5px;
-        margin-right: 12.5px;
+        margin-left: 6.25px;
       }
       .heroWrapper{
         width: 375px;
@@ -302,6 +299,49 @@
       .heroLeft__wrapper{
         padding: 0;
       }
+      .contentLeft__wrapper{
+        width:375px;
+      }
+      .contentLeft__wrapper p{
+      padding-right: 0px;
+      line-height: 1.6rem;
+    }
+    .commentWrapper{
+      width: 350px;
+    }
+    .yes{
+      width: 315px;
+    }
+    .dwa{
+      width: 350px;
+        margin-left: 12.5px;
+        margin-right: 12.5px;
+        padding: 0px 0px 0px 0px;
+    }
+    .comment{
+      max-width: 90%;
+      background-color: white;
+      padding: 30px;
+      margin-top: 80px;
+      margin-bottom: 80px;
+      border-radius: 5px;
+    }
+    .accessWrapper{
+      width: 375px;
+    }
+    .accessLeft p{
+      padding: 0;
+    }
+    .footerWrapper__logo{
+      padding: 0;
+      width: 375px;
+    }
+    .col1{
+      width: 375px;
+    }
+    .footerWrapper{
+      width: 375px;
+    }
     }
       
   </style>
@@ -350,15 +390,15 @@
     <div class="contentLeft">
       <div class="contentLeft__wrapper">
         <h2 class="raleway huj">Stay productive, wherever you are</h2>
-        <p class="open">Never let location be an issue when accessing your files. Fylo has you 
+        <p class="open dwa">Never let location be an issue when accessing your files. Fylo has you 
   covered for all of your file storage needs.</p>
-        <p class="open">Securely share files and folders with friends, family and colleagues for 
+        <p class="open dwa">Securely share files and folders with friends, family and colleagues for 
   live collaboration. No email attachments required!</p>
         <a href="#" class="tak">See how Fylo works<img src="images/icon-arrow.svg" alt=""></a>
         <div class="comment">
           <div class="commentWrapper">
             <img src="images/icon-quotes.svg" alt="">
-            <p class="open">
+            <p class="open yes">
   Fylo has improved our team productivity by an order of magnitude. Since 
   making the switch our team has become a well-oiled collaboration machine.
             </p>
@@ -368,7 +408,7 @@
               </div>
               <div class="authorRight">
                 <h4 class="raleway">Kyle Burton</h4>
-                <p class="open">Founder & CEO, Huddle</p>
+                <p class="open dwa">Founder & CEO, Huddle</p>
               </div>
             </div>
           </div>
@@ -403,31 +443,10 @@
 </div>
 <div class="footerWrapper">
   <div class="col1">
-    <p class="open"><img src="images/icon-phone.svg"> Phone:<a href="tel: +1-543-123-4567">+1-543-123-4567</a> </p>
-    <p class="open"><img src="images/icon-email.svg"> <a href="mailto:example@fylo.com">example@fylo.com</a></p>
+    <p class="open dwa"><img src="images/icon-phone.svg"> Phone:<a href="tel: +1-543-123-4567">+1-543-123-4567</a> </p>
+    <p class="open dwa"><img src="images/icon-email.svg"> <a href="mailto:example@fylo.com">example@fylo.com</a></p>
   </div>
-  <div class="col2">
-    <nav class="raleway">
-      <ul>
-        <li>About Us</li>
-        <li>Jobs</li>
-        <li>Press</li>
-        <li>Blog</li>
-      </ul>
-    </nav>
-  </div>
-  <div class="col3">
-    <nav class="raleway">
-      <ul>
-        <li>Contact Us</li>
-        <li>Terms</li>
-        <li>Privacy</li>
-      </ul>
-    </nav>
-  </div>
-  <div class="col4">
 
-  </div>
 </div>
   </footer>
 </body>
