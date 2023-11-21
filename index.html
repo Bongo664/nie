@@ -268,7 +268,7 @@
         width: 25%;
       }
       .contentRight{
-        width: 25%;
+        width: 100%;
       }
       .heroInput__wrapper{
         flex-direction: column;
@@ -342,6 +342,34 @@
     .footerWrapper{
       width: 375px;
     }
+    .jeden{
+      width: 70px;  
+    }
+    .trzy{
+      width: 200px;
+    }
+    .author{
+      width: 250px;
+    }
+    .guzik{
+      float: left;
+      width: 250px;
+      margin-top: 10px;
+      text-align: center;
+      margin-left: 10px;
+    }
+    .email{
+      margin-left: 10px;
+      margin-top: 10px;
+      width: 100%;
+    }
+    .heroInput__wrapper input{
+      width: 81.5%;
+    }
+    .zabij{
+      margin-left: 17px;
+      margin-top: 0;
+    }
     }
       
   </style>
@@ -370,8 +398,8 @@
   family, and co-workers.
       </p>
       <div class="heroInput__wrapper">
-        <input type="text" placeholder="enter your email...">
-        <a href="#">get started</a>
+        <input type="text" placeholder="enter your email..." class="email">
+        <a href="#" class="guzik">get started</a>
       </div>
     </div>
   </div>
@@ -407,8 +435,8 @@
                 <img src="images/avatar-testimonial.jpg">
               </div>
               <div class="authorRight">
-                <h4 class="raleway">Kyle Burton</h4>
-                <p class="open dwa">Founder & CEO, Huddle</p>
+                <h4 class="raleway jeden">Kyle Burton</h4>
+                <p class="open trzy">Founder & CEO, Huddle</p>
               </div>
             </div>
           </div>
@@ -431,9 +459,9 @@
   </div>
     <div class="accessRight">
       <div class="accessRight__input">
-      <input type="text" placeholder="email@egzample.com">
+      <input type="text" placeholder="email@egzample.com" class="email">
     </div>
-      <a href="#" class="raleway">Get Started For Free</a>
+      <a href="#" class="guzik zabij">Get Started For Free</a>
     </div>
   </div>
 </section>
